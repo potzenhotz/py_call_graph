@@ -1,0 +1,1 @@
+Small MVP for testing call graph. Scala is used for example.

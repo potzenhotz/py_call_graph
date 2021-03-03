@@ -1,0 +1,6 @@
+.venv/
+.pytest_cache/
+.metals/
+.DS_Store
+.vscode/
+*.pyc
