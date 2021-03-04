@@ -36,6 +36,8 @@ for index, line in enumerate(list):
         counter_bracket += 1
     if "}" in line and counter_bracket == 1:
         function_list[function_list_index - 1].index_end = index
+    if "}" in line:
+        counter_bracket -= 1
 
 for function in function_list:
     function.content = " ".join(list[function.index_start : function.index_end])
